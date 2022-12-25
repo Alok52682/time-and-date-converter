@@ -5,7 +5,7 @@ const Html = () => {
     return (
         <Box w="90%" mx="auto" mt="16">
             <Center mb='10'>
-                <Heading as='h2' size='2xl'  >Common Technical 100 Web Developer <br /> Interview Questions</Heading>
+                <Heading as='h2' size='2xl' color='purple' >Common Technical 100 Web Developer <br /> Interview Questions</Heading>
             </Center>
             <Stack spacing={5} w='90%' mx={'auto'}>
                 <Text as='p'>Technical interview questions put your web development knowledge to the test. In these questions, you need to explain how you would apply your skills for various problems or tasks.</Text>
