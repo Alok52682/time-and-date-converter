@@ -12,7 +12,7 @@ const Html = () => {
                 <Text as='p'>Any real-world examples you can provide illustrating how you applied these skills will really make your answers resonate with hiring managers.</Text>
                 <Text as='p'>A few examples of technical Web Developer interview questions include:</Text>
                 <OrderedList>
-                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' >HTML</Heading>
+                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' color='purple' >HTML</Heading>
                     <ListItem fontSize='xl'>
                         <Text as='b' fontSize='xl'>What are the advantages of HTTP 2.0 over HTTP 1.1?</Text>
                         <Text fontSize='md' my='3'>Answer: This technical question is meant to test your overall knowledge, explore your experience level with both HTTP 2.0 and HTTP 1.1, and ensure you have the communication skills that a good Web Developer needs.</Text>

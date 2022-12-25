@@ -17,12 +17,12 @@ import TimeConverter from './TimeConverter';
 const Converter = () => {
     const [bannerImg, setBannerImg] = useState(false);
     return (
-        <Stack minH={'60vh'} w="90%" mx='auto' direction={{ base: 'column', md: 'row' }}>
+        <Stack minH={'60vh'} w="90%" mx={{ base: 'auto', md: '0' }} direction={{ base: 'column', md: 'row' }}>
             <Flex p={8} flex={1} align={'center'} justify={'center'}>
                 <Tabs w={{ base: '100%', md: '60%' }} mx='auto'>
                     <TabList>
-                        <Tab onClick={(e) => setBannerImg(false)} >Currency</Tab>
-                        <Tab onClick={(e) => setBannerImg(true)}>Time</Tab>
+                        <Tab onClick={(e) => setBannerImg(false)} w='50%' >Currency</Tab>
+                        <Tab onClick={(e) => setBannerImg(true)} w='50%' >Time</Tab>
                     </TabList>
 
                     <TabPanels>

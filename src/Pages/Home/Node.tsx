@@ -6,7 +6,7 @@ const Node = () => {
         <Box w="90%" mx="auto" mt="16">
             <Stack spacing={5} w='90%' mx={'auto'}>
                 <OrderedList>
-                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' >Node</Heading>
+                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' color='purple' >Node</Heading>
                     <ListItem fontSize='xl'>
                         <Text as='b' fontSize='xl'>What is NodeJS?</Text>
                         <Text fontSize='md' my='3'>Answer: Node.Js can be simply explained as it is a concept of two outcomes: runtime environment and JavaScript library. So basically, node.js will enable you to use javascript beyond the browser.</Text>

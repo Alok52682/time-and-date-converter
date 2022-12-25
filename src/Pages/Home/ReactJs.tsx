@@ -6,7 +6,7 @@ const ReactJs = () => {
         <Box w="90%" mx="auto" mt="16">
             <Stack spacing={5} w='90%' mx={'auto'}>
                 <OrderedList>
-                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' >React</Heading>
+                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' color='purple' >React</Heading>
                     <ListItem fontSize='xl'>
                         <Text as='b' fontSize='xl'>What is React?</Text>
                         <Text fontSize='md' my='3'>Answer: React is an open-source front-end JavaScript library that is used for building

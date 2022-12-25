@@ -6,7 +6,7 @@ const Css = () => {
         <Box w="90%" mx="auto" mt="16">
             <Stack spacing={5} w='90%' mx={'auto'}>
                 <OrderedList>
-                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' >CSS</Heading>
+                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' color='purple' >CSS</Heading>
                     <ListItem fontSize='xl'>
                         <Text as='b' fontSize='xl'>What are the elements of the CSS Box Model?</Text>
                         <Text fontSize='md' my='3'>Answer: The CSS box model defines the layout and design of CSS elements. The elements are content like text and images, padding the area around content, border the area around the padding, and margin the area around the border.</Text>

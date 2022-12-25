@@ -6,7 +6,7 @@ const JavaScript = () => {
         <Box w="90%" mx="auto" mt="16">
             <Stack spacing={5} w='90%' mx={'auto'}>
                 <OrderedList>
-                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' >JavaScript</Heading>
+                    <Heading as='h2' size='xl' fontWeight='semibold' textAlign='center' my='12' color='purple' >JavaScript</Heading>
                     <ListItem fontSize='xl'>
                         <Text as='b' fontSize='xl'> Difference between var and let keyword in javascript.</Text>
                         <Text fontSize='md' my='3'>Answer: Some differences are –</Text>
