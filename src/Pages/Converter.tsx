@@ -1,11 +1,6 @@
 import {
-    Button,
     Flex,
-    FormControl,
-    FormLabel,
     Image,
-    Input,
-    Select,
     Stack,
     Tab,
     TabList,
@@ -16,6 +11,8 @@ import {
 import { useState } from 'react';
 import banner from '../Assets/text.jpeg';
 import time from '../Assets/time.jpg';
+import Currency from './Currency';
+import TimeConverter from './TimeConverter';
 
 const Converter = () => {
     const [bannerImg, setBannerImg] = useState(false);
@@ -30,76 +27,10 @@ const Converter = () => {
 
                     <TabPanels>
                         <TabPanel>
-                            <Stack spacing="7">
-                                <Stack spacing="7">
-                                    <FormControl>
-                                        <FormLabel htmlFor="amount">I'd Like To Exchange</FormLabel>
-                                        <Input id="amount" type="number" placeholder='Enter Amount' />
-                                    </FormControl>
-                                </Stack>
-                                <Stack spacing="7">
-                                    <Select placeholder='Country From'>
-                                        <option value='option1'>USD - US Dollar</option>
-                                        <option value='option2'>INR - Indian Rupi</option>
-                                        <option value='option3'>Euro - Euorope</option>
-                                        <option value='option3'>BDT - Bangladesh</option>
-                                        <option value='option3'>Yuan - China</option>
-                                    </Select>
-                                </Stack>
-                                <Stack spacing="7">
-                                    <Select placeholder='Country To'>
-                                        <option value='option1'>USD - US Dollar</option>
-                                        <option value='option2'>INR - Indian Rupi</option>
-                                        <option value='option3'>Euro - Euorope</option>
-                                        <option value='option3'>BDT - Bangladesh</option>
-                                        <option value='option3'>Yuan - China</option>
-                                    </Select>
-                                </Stack>
-                                <Stack spacing="7">
-                                    <FormControl>
-                                        <Input disabled type="number" placeholder='Exchanged Amount' />
-                                    </FormControl>
-                                </Stack>
-                                <Stack spacing="6">
-                                    <Button colorScheme='purple'>Convert Now</Button>
-                                </Stack>
-                            </Stack>
+                            <Currency />
                         </TabPanel>
                         <TabPanel>
-                            <Stack spacing="7">
-                                <Stack spacing="7">
-                                    <FormControl>
-                                        <FormLabel htmlFor="amount">The Time You want to convert</FormLabel>
-                                        <Input id="amount" type="time" defaultValue='00:00:00' />
-                                    </FormControl>
-                                </Stack>
-                                <Stack spacing="7">
-                                    <Select placeholder='Country From'>
-                                        <option value='option1'>(UTC-06:00) Central America</option>
-                                        <option value='option2'>India(IST)</option>
-                                        <option value='option3'>U.K.(UTC+01:00)</option>
-                                        <option value='option3'>Bangladesh(BST)</option>
-                                        <option value='option3'>France(CET) </option>
-                                    </Select>
-                                </Stack>
-                                <Stack spacing="7">
-                                    <Select placeholder='Country To'>
-                                        <option value='option1'>(UTC-06:00) Central America</option>
-                                        <option value='option2'>India(IST)</option>
-                                        <option value='option3'>U.K.(UTC+01:00)</option>
-                                        <option value='option3'>Bangladesh(BST)</option>
-                                        <option value='option3'>France(CET) </option>
-                                    </Select>
-                                </Stack>
-                                <Stack spacing="7">
-                                    <FormControl>
-                                        <Input disabled type="number" placeholder='Converted Time' />
-                                    </FormControl>
-                                </Stack>
-                                <Stack spacing="6">
-                                    <Button colorScheme='twitter'>Convert Now</Button>
-                                </Stack>
-                            </Stack>
+                            <TimeConverter />
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
